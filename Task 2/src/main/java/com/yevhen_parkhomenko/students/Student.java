@@ -1,12 +1,23 @@
 package com.yevhen_parkhomenko.students;
 
 public abstract class Student {
-    protected String name, state;
+    private String name, state;
 
     public Student(String name) {
         this.name = name;
         this.state = "";
     }
+
+    public Student(String name, String state) {
+        this.name = name;
+        this.state = state;
+    }
+
+    /*public Student(String name, String state) {
+        this.name = name;
+    }*/
+
+
 
     public void relax(){
         state += " Relax";

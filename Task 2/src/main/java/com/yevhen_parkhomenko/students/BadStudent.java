@@ -3,8 +3,7 @@ package com.yevhen_parkhomenko.students;
 public class BadStudent extends Student {
 
     public BadStudent(String name) {
-        super(name);
-        this.state = "Bad";
+        super(name, " bad");
     }
 
     @Override
